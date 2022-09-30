@@ -1,5 +1,18 @@
-## NEXT
+## 0.11.1
 
+* Adds a `fix` command to run `dart fix --apply` in target packages.
+
+## 0.11
+
+* Renames `publish-plugin` to `publish`.
+* Renames arguments to `list`:
+    * `--package` now lists top-level packages (previously `--plugin`).
+    * `--package-or-subpackage` now lists top-level packages (previously
+      `--package`).
+
+## 0.10.0+1
+
+* Recognizes `run_test.sh` as a developer-only file in `version-check`.
 * Adds `readme-check` validation that the example/README.md for a federated
   plugin's implementation packages has a warning about the intended use of the
   example instead of the template boilerplate.
